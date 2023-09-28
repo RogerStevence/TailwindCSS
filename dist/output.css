@@ -630,6 +630,10 @@ video {
   bottom: 0px;
 }
 
+.bottom-\[109px\] {
+  bottom: 109px;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -745,6 +749,18 @@ video {
 
 .mb-\[161px\] {
   margin-bottom: 161px;
+}
+
+.mt-\[110px\] {
+  margin-top: 110px;
+}
+
+.mb-\[109px\] {
+  margin-bottom: 109px;
+}
+
+.mb-\[69px\] {
+  margin-bottom: 69px;
 }
 
 .inline-block {
@@ -867,6 +883,10 @@ video {
   width: 20px;
 }
 
+.w-\[519px\] {
+  width: 519px;
+}
+
 .min-w-\[780px\] {
   min-width: 780px;
 }
@@ -897,6 +917,11 @@ video {
 
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -958,6 +983,10 @@ video {
 
 .gap-\[21px\] {
   gap: 21px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .space-x-7 > :not([hidden]) ~ :not([hidden]) {
@@ -1067,6 +1096,15 @@ video {
   background-color: rgb(60 62 73 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#\#25272E\] {
+  background-color: ##25272E;
+}
+
+.bg-\[\#FFFFFE\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 254 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\/imgaes\/Ellipse_1\.svg\'\)\] {
   background-image: url('./imgaes/Ellipse_1.svg');
 }
@@ -1114,6 +1152,11 @@ video {
 .px-\[26px\] {
   padding-left: 26px;
   padding-right: 26px;
+}
+
+.px-\[225px\] {
+  padding-left: 225px;
+  padding-right: 225px;
 }
 
 .pl-7 {
@@ -1272,6 +1315,16 @@ video {
 .text-\[\#fff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#25272E\] {
+  --tw-text-opacity: 1;
+  color: rgb(37 39 46 / var(--tw-text-opacity));
+}
+
+.text-\[\#FFFFFE\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 254 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
